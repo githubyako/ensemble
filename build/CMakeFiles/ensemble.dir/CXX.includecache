@@ -1,0 +1,32 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/yako/projects/Ensemble/ensemble.cpp
+ensemble.h
+/home/yako/projects/Ensemble/ensemble.h
+
+/home/yako/projects/Ensemble/ensemble.h
+iostream
+-
+string.h
+-
+algorithm
+-
+
+/home/yako/projects/Ensemble/ensembletableau.cpp
+ensembletableau.h
+/home/yako/projects/Ensemble/ensembletableau.h
+
+/home/yako/projects/Ensemble/ensembletableau.h
+ensemble.h
+/home/yako/projects/Ensemble/ensemble.h
+
+/home/yako/projects/Ensemble/main.cpp
+ensembletableau.h
+/home/yako/projects/Ensemble/ensembletableau.h
+
